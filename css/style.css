@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-verde:#4BB889;
+	--color-gris:#7C899F;
+	--color-gris-claro:#E6E8EA;
+	--color-amarillo:#ffc800;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.img-fluid {
+	max-width: 100%;
+}
+
+#panel-menu {
+	background-color: #F8BB63;
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+#menu-list {
+	background-color: #F8BB63;
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.material-icons{
+	color:#D67124;
+}
+
+#title {
+	background-image: url("../img/waffles_img1.jpg");
+	background-size: cover;		
+}
+
+.nav-bar-title{
+	color:#D67124;
+}
+
+#header-title {
+	padding: 10%;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 300%;
+	background-color:rgba(211,211,211,0.60);
+	color:#D67124;
+	align-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+#specialties {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+#header-specialties {
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	font-size: 200%;
+	color:#D67124;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+#button{
+	background-color: #F8BB63;
+	color: #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+#button-1 {
+	background-color: #F8BB63;
+	color: #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#about-us {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+#header-aboutus {
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	font-size: 200%;
+	color:#F8BB63;
+}
+
+/*Alberto */
+
+#settings-list li{
+	padding: 25px 0;
+	border-bottom: 1px solid #D67124;
+	 
+}
+#settings-list .item-inner::after{
+	background-color: transparent !important;
+}
+.item-title{
+	color:#D67124;
+}
+#confirmar-compra p{
+	color:#D67124;
+	
+}
+#confirmar-compra hr{
+	background-color: #D67124;
+	color:#D67124;
+}
+
+.center{
+text-align: center;	
+	
+}
+#popup-confirmar .material-icons{
+	
+	font-size: 200px;
+}
+#popup-confirmar .mensaje{
+	padding: 20px;
+	background-color: #FFC58C;
+	border-radius: 10%;
+	margin-bottom: 20px;
+}
+
+.col.button-fill.popup-open.btn-seguir-comprando {
+		background-color: #D67125;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: inherit;	
+	border-radius: 5px;
+	padding: 15px 0px 45px;
+	margin-top: 10px;
+}
+
+#popup-confirmar a{
+	text-align: center;
+	color:#D67124;
+}
+#popup-confirmar img{
+	width: 250px;
+	height: 50px;
+}
+
+
+
+/*Danna */
+
+.form-list input{
+	border: 1px solid #D67124;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.form-list .item-label{
+	color: var(--color-principal);
+	
+}
+
+.form-list input::placehoder{
+	color: var(--naranja-claro)!important;
+}
+
+.list{
+	margin: 0;
+}
+.button-fill{
+	background-color: var(--principal-color);
+	border-radius: 20px;
+	width: 100px;
+		padding-left: 1%;
+	padding-right: 1%;
+}
+
+.block-title-large{
+	font-size: 15px;
+	color: var(--principal-color);
+	font-weight: 400;
+}
+
+
+h5.title-tarjeta-seleccionada{
+	font-size: 17px;
+	color: var(--principal-color);
+	font-weight: 400;
+	margin: 25px 20px 2px;
+}
+
+.button-editar{
+	background-color: var(--principal-color);
+	border-radius: 20px;
+	width: 100px;
+		padding-left: 1%;
+	padding-right: 1%;
+}
+
+/*Menu Kimberly Mairena*/
+#menu-waffles{
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/waffle_portada.jpg");
+	background-size: cover;
+	padding: 10%;
+	background-position: center;	
+}
+
+#menu-milkshakes{
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/milkshake_portada.png");
+	background-size: cover;
+	padding: 10%;
+	background-position: center;	
+}
+
+#menu-boba{
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/boba_portada.png");
+	background-size: cover;
+	padding: 10%;
+	background-position: center;	
+}
+
+.title-menu{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.btn-categories{
+	display: inline-block;
+
+}
+
+.btn-categories .title-categories{
+	text-align: center;
+	padding: 15px 27px;
+	font-size: 15px;
+}
+
+.active{
+	background-color: #F8BB63;
+	border: #F8BB63 1px solid;
+}
+
+.inactive{
+	border: #D67125 1px solid;
+}
+
+a{
+	text-decoration: none;
+	color: #D67125;
+}
+
+.active{
+	color: #FFFFFF;
+	font-weight: 300;
+}
+
+.item-title.title-producto{
+	color: #FFFFFF;
+	font-weight: 400;
+	padding-top: 10px;
+}
+
+.informacion-producto-menu{
+	background-color: #D67125;
+	border-radius: 5px;
+	height: 190px;
+	margin-bottom: 10px;
+}
+
+.item-text.texto-producto{
+	color: #FFFFFF;
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.precio.float-right{
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 35px;
+	
+}
+.item-media.photo-product{
+	padding: 0;
+}
+
+.list .item-content{
+	padding: 0px;
+}
+
+/*Menu Kimberly Mairena*/
+
+/*Información del Menú Kimberly Mairena*/
+#producto-seleccionado{
+	background: url("../img/waffle_info_portada.png");
+	background-size: cover;
+	padding: 27%;
+	background-position: center;	
+}
+
+#button-product{
+	background-color: #D67125;
+	font-weight: 200;
+	color: #FFFFFF;
+	border: 1px solid #d67124;
+}
+
+.btn-product{
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 17px;
+}
+
+#info-producto{
+	padding: 0px;
+}
+
+h4.title-info-menu{
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px;
+}
+
+
+p.text-info-menu{
+	margin: 20px 0px;
+}
+
+.center{
+	text-align: center;
+}
+
+.item-content-comentario{
+	border: 1px solid #d67124; 
+}
+
+.item-title.item-label.title-comentario-menu{
+	color: #000000;
+	font-size: 17px;
+	padding-bottom: 4%;
+}
+
+.item-title.item-label.title-info-trajeta{
+	color: #000000;
+	font-size: 17px;
+	padding-bottom: 4%;
+}
+
+a#btnCarrito.col.button.button-fill.btn-carrito{
+	background-color: #D67125;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: inherit;	
+	border-radius: 5px;
+	padding: 15px 0px 45px;
+	margin-top: 10px;
+}
+
+a#btnEditar.col.button.button-fill.btn-carrito{
+	background-color: #D67125;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: inherit;	
+	border-radius: 5px;
+	padding: 15px 0px 45px;
+	margin-top: 10px;
+}
+
+a#btnConfirmar.col.button.button-fill.btn-confirmar{
+	background-color: #D67125;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: inherit;	
+	border-radius: 5px;
+	padding: 15px 0px 45px;
+	margin-top: 10px;
+}
+
+a#btnEnviar.col.button.button-fill.btn-carrito{
+	background-color: #D67125;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: inherit;	
+	border-radius: 5px;
+	padding: 15px 0px 45px;
+	margin-top: 10px;
+}
+
+.col.button.button-fill.popup-open.btnComprar{
+	background-color: #D67125;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: inherit;	
+	border-radius: 5px;
+	padding: 15px 0px 45px;
+	margin-top: 10px;
+}
+
+/*Información del Menú Kimberly Mairena*/
+.header-equipo{
+	text-align: center;
+	font-weight: 500;
+	color: #D67125;
+}
+
+h2.header-equipo{
+	margin-bottom: 0;
+	padding-top: 6%;
+}
+
+.waffle-about-foto{
+	padding-bottom: 6%;
+}
+
+
+#footer {
+	background-color: #D67124;
+	text-align: center;
+	align-content: center;
+}
+
